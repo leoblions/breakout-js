@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--- 2d html/JS game -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" ,content="width=device-width, initial-scale=1.0" />
+    <title>MAGGOT☆MART</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="game.css" />
+    <script defer src="game.js" type="module"></script>
+  </head>
+  <body style="overflow: show">
+    <canvas id="board"></canvas>
+    <br />
+    <div id="editorControls" class="editor">
+      <button id="assetplus">AssetID+</button>
+      <button id="assetminus">AssetID-</button>
+      <button id="assetkind">Edit Mode</button>
+      <button id="savecookie">Save Cookie</button>
+      <button id="loadcookie">Load Cookie</button>
+      <button id="toclipboard">To Clipboard</button>
+    </div>
+    <br />
+    <div id="editorControls2" class="editor">
+      <button id="resetgrid">Reset Grid</button>
+      <button id="deletemode">Delete OFF</button>
+      <button id="spawner">Spawner OFF</button>
+      <button id="trigger">trigger ON</button>
+    </div>
+    <br />
+    <div id="editorData" class="editor">
+      <p id="editorDataPara">Editor data:</p>
+    </div>
+    <div id="gameData" class="editor">
+      <p id="editorDataPara">Game data:</p>
+    </div>
+    <canvas
+      id="tempCanvas"
+      class="hidden_element_cls"
+      style="display: none"
+    ></canvas>
+  </body>
+</html>

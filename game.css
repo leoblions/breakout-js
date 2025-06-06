@@ -1,0 +1,23 @@
+body {
+  font-family: 'Courier New', 'Courier', monospace;
+  text-align: center;
+}
+
+#board {
+  background-color: black;
+  background-repeat: repeat;
+}
+
+#board2 {
+  background-color: black;
+}
+
+.hidden_element_cls {
+  display: none;
+}
+.editor {
+  display: none;
+}
+#gameData {
+  display: none;
+}
